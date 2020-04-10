@@ -12,6 +12,57 @@
     margin-bottom: 20px;
 }
 
+.product-list  a{
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #ff4500;
+    background: none;
+    margin-top: 10px;
+    color: #ff4500;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+    margin-bottom: 5px;
+}
+
+#vis-del button{
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #ff4500;
+    background: none;
+    margin-top: 10px;
+    color: #ff4500;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+    margin-bottom: 5px;
+}
+
+#vis-del{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#vis-del a{
+    width: 30%;
+}
+
+.product-list a:hover{
+    color: #fff;
+    background-color: #ff4500;
+}
+
 .product-list .navigation{
     display: flex;
     justify-content: space-between;
@@ -36,4 +87,14 @@
 
 .product-list .navigation button[notdisabled]:hover{
     opacity: 0.7;
+}
+
+#newProduct{
+    background-color: #ff4500;
+    color: #fff;
+}
+
+.div-newProduct{
+    display: flex;
+    justify-content: space-between;
 }
