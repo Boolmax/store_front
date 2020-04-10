@@ -63,7 +63,7 @@ export default class Main extends Component{
                       <p>Quantidade em estoque: {prod.quantity}</p>
                       <div id='vis-del'>
                           <a onClick={() => this.deleteProduct(prod._id)}>Deletar</a>
-                          <Link to={"#"} id='update'>Editar</Link>
+                          <Link to={`/product/e/${prod._id}`} id='update'>Editar</Link>
                           <Link to={`/product/${prod._id}`}>Visualizar</Link>
                       </div>
                   </article>
